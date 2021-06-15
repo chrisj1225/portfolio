@@ -2538,6 +2538,10 @@ input, select, textarea {
 			line-height: 2.5em;
 		}
 
+		.icon.major:hover {
+			background: #8DA9C4;
+		}
+
 			.icon.major:before {
 				font-size: 1.25em;
 			}
@@ -3904,7 +3908,7 @@ ul.contact {
 		font-size: 1.25em;
 		color: #0B2545;
 	}
-	
+
 	#intro p > strong {
 		font-size: 1.25em;
 		color: #0B2545;
