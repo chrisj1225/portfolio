@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #0B2545;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: #EEF4ED;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -162,7 +162,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #EEF4ED;
 		font-weight: bold;
 	}
 
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #EEF4ED;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #8DA9C4, #EEF4ED);
+				background-image: -webkit-linear-gradient(to right, #8DA9C4, #EEF4ED);
+				background-image: -ms-linear-gradient(to right, #8DA9C4, #EEF4ED);
+				background-image: linear-gradient(to right, #8DA9C4, #EEF4ED);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1833,9 +1833,9 @@ input, select, textarea {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border-color: rgba(255, 255, 255, 0.15);
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -2295,7 +2295,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #0B2545;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -2313,11 +2313,11 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(255, 255, 255, 0.05);
+		background: lighten(#EEF4ED, 1%);
 		border-radius: 0.25em;
 		border: none;
 		border: solid 1px rgba(255, 255, 255, 0.15);
-		color: inherit;
+		color: #0B2545;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -2791,7 +2791,12 @@ input, select, textarea {
 	ul.contact {
 		list-style: none;
 		padding: 0;
+		color: #0B2545;
 	}
+
+		ul.contact h3 {
+			color: #0B2545;
+		}
 
 		ul.contact > li {
 			padding: 0;
@@ -2801,6 +2806,10 @@ input, select, textarea {
 			ul.contact > li:first-child {
 				margin-top: 0;
 			}
+
+		ul.contact a {
+			color: #0B2545;
+		}
 
 /* Icons */
 
@@ -3240,15 +3249,16 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			/* background-color: #13315C; */
+			background-color: #EEF4ED;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #13315C;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #8DA9C4;
 		}
 
 		.wrapper.style2-alt {
@@ -3256,7 +3266,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #13315C;
 		}
 
 		.wrapper.style3-alt {
@@ -3524,7 +3534,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #0B2545;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3761,14 +3771,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #206CC3;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #8DA9C4, #EEF4ED);
+				background-image: -webkit-linear-gradient(to right, #8DA9C4, #EEF4ED);
+				background-image: -ms-linear-gradient(to right, #8DA9C4, #EEF4ED);
+				background-image: linear-gradient(to right, #8DA9C4, #EEF4ED);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3879,26 +3889,36 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+	
+	#intro p {
+		font-size: 1.25em;
+		color: #0B2545;
+	}
+	
+	#intro h1 {
+		color: #0B2545;
+	}
+	
+	#intro a {
+		color: #0B2545;
+	}
 
-		#intro p {
-			font-size: 1.25em;
+
+		@media screen and (max-width: 980px) {
+
+			#intro p br {
+				display: none;
+			}
+
 		}
 
-			@media screen and (max-width: 980px) {
+		@media screen and (max-width: 736px) {
 
-				#intro p br {
-					display: none;
-				}
-
+			#intro p {
+				font-size: 1em;
 			}
 
-			@media screen and (max-width: 736px) {
-
-				#intro p {
-					font-size: 1em;
-				}
-
-			}
+		}
 
 		@media screen and (max-width: 1280px) {
 
