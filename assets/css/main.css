@@ -1994,7 +1994,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 20px 60px;
+			padding: 20px 50px;
 			/* border-top: solid 1px rgba(255, 255, 255, 0.15); */
 		}
 
@@ -2490,7 +2490,7 @@ input, select, textarea {
 	}
 	
 	i {
-		font-size: 50px;
+		font-size: 60px;
 	}
 
 	.icon {
@@ -2529,8 +2529,8 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			width: 80px;
-			height: 80px;
+			width: 100px;
+			height: 100px;
 			background: #EEF4ED;
 			border-radius: 100%;
 			color: #312450;
@@ -2545,7 +2545,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 			i {
-				font-size: 31.25px;
+				font-size: 30px;
 			}
 
 			.icon.major {
