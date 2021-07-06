@@ -2569,6 +2569,10 @@ input, select, textarea {
 		position: relative;
 	}
 
+		.image:hover {
+			opacity: 0.5;
+		}
+
 		.image img {
 			border-radius: 0.25em;
 			display: block;
